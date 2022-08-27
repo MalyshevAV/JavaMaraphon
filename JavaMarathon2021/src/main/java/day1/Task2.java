@@ -6,8 +6,8 @@ public class Task2 {
 //        Вывод в консоль должен быть таким:
 //        JAVA JAVA JAVA JAVA JAVA JAVA JAVA JAVA JAVA JAVA
 
-        for (int i = 0; i <= 10; i++) {
-            System.out.print("Java ");
+        for (int i = 0; i < 10; i++) {
+            System.out.print("JAVA ");
         }
     }
 }
