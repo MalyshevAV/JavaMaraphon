@@ -6,7 +6,6 @@ public class Task1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int flour = scanner.nextInt();
-        System.out.println("Введите количество этажей " + flour );
        if (flour >0 && flour <= 4){
            System.out.println("Малоэтажный дом");
        } else if (flour >=5  && flour <= 8) {

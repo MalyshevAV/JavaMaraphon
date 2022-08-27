@@ -5,13 +5,14 @@ import java.util.Scanner;
 public class Task2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
+        int a = scanner.nextInt()+1;
         int b = scanner.nextInt();
-        System.out.println("Введите число а:" + a );
-        System.out.println("Введите число b:" + b );
+        if (a >= b){
+            System.out.println("Некорректный ввод");
+        }
         for ( ; a < b; a++ ) {
             if (a % 5 == 0 && a % 10 != 0) {
-                System.out.println(a);
+                System.out.print(a + " ");
             }
         }
     }
